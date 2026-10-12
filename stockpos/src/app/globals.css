@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #141c18;
+  --leaf: #1c5c40;
+  --mist: #eef3ee;
+  --paper: #f7f4ee;
+  --line: #d5ddd6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
