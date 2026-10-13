@@ -27,7 +27,7 @@ stockpos/
         signup/                 [12] start of Section B
         login/                  [13]
       api/contact/              contact form (not an account)
-    components/public/          Header, Footer, PageHero
+    components/public/          AnnouncementBar, Header, Footer, PageHero, PosMockup
     content/help.ts
     lib/nav.ts
 ```
